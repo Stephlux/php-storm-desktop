@@ -1,0 +1,12 @@
+# Configuration for git attributes
+# Default behavior
+# Language detection rules
+src/**/*.astro linguist-detectable
+*.gif binary
+*.svg text
+
+public/** linguist-vendored
+src/*.astro linguist-detectable
+public/* linguist-vendored 
+
+# eof e3c50c01
